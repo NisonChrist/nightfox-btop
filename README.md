@@ -41,6 +41,10 @@ color_theme = "carbonfox"
 
 ## Preview
 
+Carbonfox theme (Recommended):
+
+![carbonfox](screenshot_carbonfox.png)
+
 The themes use the official Nightfox color palettes with:
 - Green → Yellow → Red gradients for CPU/temperature meters
 - Blue → Purple → Red gradients for download graphs
