@@ -14,20 +14,30 @@
 | terafox | Dark, teal-tinted |
 | carbonfox | Dark, IBM Carbon-inspired |
 
-## Installation
+## Configuration
 
-Copy the theme files to your btop themes directory:
+btop's config directory normally is at: `~/.config/btop/`,
+so, the themes can be copied to: `~/.config/btop/themes/`:
 
-```bash
-# Linux/macOS
-cp themes/*.theme ~/.config/btop/themes/
-
-# Or clone and link
-git clone https://github.com/yourusername/nightfox-btop.git
-ln -s $(pwd)/nightfox-btop/themes/*.theme ~/.config/btop/themes/
+```
+.config/
+└── btop
+    └── themes
+        ├── nightfox.theme
+        ├── dayfox.theme
+        ├── dawnfox.theme
+        ├── duskfox.theme
+        ├── nordfox.theme
+        ├── terafox.theme
+        └── carbonfox.theme
+    btop.conf
 ```
 
-Then select the theme in btop by pressing `Esc` → `Options` → `Color theme`.
+In `btop.conf`, set the desired theme:
+
+```
+color_theme = "carbonfox"
+```
 
 ## Preview
 
